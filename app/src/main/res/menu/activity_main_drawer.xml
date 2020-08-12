@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ihome"
+        android:title="Home" />
+
+    <item android:title="Destinasi">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_wisata"
+                android:icon="@drawable/wisata"
+                android:title="Wisata" />
+
+        </menu>
+    </item>
+
+    <item android:title="Tentang">
+        <menu>
+            <item
+                android:id="@+id/nav_tentang_aplikasi"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Profil" />
+        </menu>
+    </item>
+</menu>
